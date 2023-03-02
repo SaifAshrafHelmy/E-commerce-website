@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
-  <script src="main.js"></script>
 </head>
 
 <body>
@@ -79,10 +78,11 @@
   <section id="products_Section">
     <h2>Featured Products</h2>
     <p>Summer Collection New Modern Design</p>
-    <div class="products_Container">
+    <div class="products_Container" id="products_Container">
+    
 
-      
-      <div class="product_Card">
+ 
+      <!-- <div class="product_Card">
         <img src="img/products/f1.jpg" alt="product">
         <div class="description">
           <span>Adidas</span>
@@ -94,11 +94,14 @@
             <i class="fas fa-star"></i>
           </div>
           <h4 class="price">450EGP</h4>
-          <a href="#">
-            <i class="fa fa-shopping-cart cart" style="  color: #088178;            ;"></i>
-          </a>
+          <button id="cartButton" onclick="AddToCart(this)">
+            <i class="fa fa-shopping-cart cart" style="  color: #088178; "></i>
+
+          </button>
+          
         </div>
-      </div>
+      </div> -->
+          <!--  
 
       
       <div class="product_Card">
@@ -114,7 +117,7 @@
           </div>
           <h4 class="price">450EGP</h4>
           <a href="#">
-            <i class="fa fa-shopping-cart cart" style="  color: #088178;            ;"></i>
+            <i class="fa fa-shopping-cart cart" style="  color: #088178;"></i>
           </a>
         </div>
       </div>
@@ -133,7 +136,7 @@
           </div>
           <h4 class="price">450EGP</h4>
           <a href="#">
-            <i class="fa fa-shopping-cart cart" style="  color: #088178;            ;"></i>
+            <i class="fa fa-shopping-cart cart" style="  color: #088178; "></i>
           </a>
         </div>
       </div>
@@ -152,7 +155,7 @@
           </div>
           <h4 class="price">450EGP</h4>
           <a href="#">
-            <i class="fa fa-shopping-cart cart" style="  color: #088178;            ;"></i>
+            <i class="fa fa-shopping-cart cart" style="  color: #088178; "></i>
           </a>
         </div>
       </div>
@@ -171,7 +174,7 @@
           </div>
           <h4 class="price">450EGP</h4>
           <a href="#">
-            <i class="fa fa-shopping-cart cart" style="  color: #088178;            ;"></i>
+            <i class="fa fa-shopping-cart cart" style="  color: #088178; "></i>
           </a>
         </div>
       </div>
@@ -190,7 +193,7 @@
           </div>
           <h4 class="price">450EGP</h4>
           <a href="#">
-            <i class="fa fa-shopping-cart cart" style="  color: #088178;            ;"></i>
+            <i class="fa fa-shopping-cart cart" style="  color: #088178; "></i>
           </a>
         </div>
       </div>
@@ -200,7 +203,7 @@
         <img src="img/products/f7.jpg" alt="product">
         <div class="description">
           <span>Adidas</span>
-          <h5>Cartoon Flower Pants</h5>
+          <h5>Flower Pants</h5>
           <div class="star">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -209,7 +212,7 @@
           </div>
           <h4 class="price">450EGP</h4>
           <a href="#">
-            <i class="fa fa-shopping-cart cart" style="  color: #088178;            ;"></i>
+            <i class="fa fa-shopping-cart cart" style="  color: #088178; "></i>
           </a>
         </div>
       </div>
@@ -228,10 +231,10 @@
           </div>
           <h4 class="price">450EGP</h4>
           <a href="#">
-            <i class="fa fa-shopping-cart cart" style="  color: #088178;            ;"></i>
+            <i class="fa fa-shopping-cart cart" style="  color: #088178; "></i>
           </a>
         </div>
-      </div>
+      </div> -->
 
 
     </div>
@@ -244,6 +247,7 @@
 
 
 
+  <script src="main.js"></script>
 
 </body>
 

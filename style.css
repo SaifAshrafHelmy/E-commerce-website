@@ -320,9 +320,10 @@ list-style: none;
 
   position: absolute;
   right: 10px;
-  bottom: 20px;
+  bottom: 25px;
 
   transition: 0.2s;
+  cursor: pointer;
 
 
 }

@@ -1,0 +1,58 @@
+[
+  {
+    "id":0,
+    "brand": "Adidas",
+    "title": "Cartoon Astronaut T-Shirt",
+    "price": 450,
+    "img_src": "img/products/f1.jpg"
+  },
+  {
+    "id":1,
+    "brand": "Adidas",
+    "title": "Hit the Vibe T-Shirt",
+    "price": 500,
+    "img_src": "img/products/f2.jpg"
+  },
+  {
+    "id":2,
+    "brand": "Adidas",
+    "title": "Classic T-Shirt",
+    "price": 600,
+    "img_src": "img/products/f3.jpg"
+  },
+  {
+    "id":3,
+    "brand": "Adidas",
+    "title": "Autumn T-Shirt",
+    "price": 400,
+    "img_src": "img/products/f4.jpg"
+  },
+  {
+    "id":4,
+    "brand": "Adidas",
+    "title": "Spring T-Shirt",
+    "price": 430,
+    "img_src": "img/products/f5.jpg"
+  },
+  {
+    "id":5,
+    "brand": "Adidas",
+    "title": "Scarlet Jacket",
+    "price": 750,
+    "img_src": "img/products/f6.jpg"
+  },
+  {
+    "id":6,
+    "brand": "Adidas",
+    "title": "Flower Pants",
+    "price": 450,
+    "img_src": "img/products/f7.jpg"
+  },
+  {
+    "id":7,
+    "brand": "Adidas",
+    "title": "Feline Flair Skirt",
+    "price": 650,
+    "img_src": "img/products/f8.jpg"
+  }
+]
