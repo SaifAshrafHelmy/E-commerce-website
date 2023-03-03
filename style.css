@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Global styling */
+
 
 *{
   margin: 0;
@@ -8,6 +10,12 @@
   font-family: 'Spartan', sans-serif;
 
 }
+
+body{
+  width: 100%;
+}
+
+
 
 
 h1{
@@ -45,9 +53,21 @@ p{
   margin: 15px 0 20px 0;
 }
 
+/* Button كلاسه normal  => يبقى لازقه فيه
+  msh button جواه .normal
+*/
 
-body{
-  width: 100%;
+button.normal{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
 }
 
 
@@ -330,4 +350,56 @@ list-style: none;
 .product_Card .description .cart:hover{
   scale: 1.5;
 }
+
+
+
+/*************************
+ * CALL TO ACTION BANNER *
+ *************************/
+
+
+ #banner{
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(img/banner/b2.jpg);
+  width: 100%;
+  height: 40vh;
+
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  color: white;
+
+ }
+
+ #banner h4{
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+
+  
+ }
+ #banner h2{
+  color: white;
+  font-size: 30px;
+  padding: 10px 0;
+ }
+ #banner h2 span{
+  font-size: 34px;
+  color: #ef3636;
+
+ }
+ #banner button:hover{
+  background: #088178;
+  color: #fff;
+  
+
+ }
+
+ 
 

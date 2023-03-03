@@ -53,7 +53,7 @@ function fetchData(){
 })
 }
 
-
+// implement try catch for fetch
 
 fetchData()
 
@@ -78,4 +78,6 @@ function AddToCart(prod){
 }
 
 
-
+/************************
+ * IMPLEMENT SEARCH BAR *
+ ************************/
