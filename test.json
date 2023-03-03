@@ -1,58 +1,114 @@
 [
   {
-    "id":0,
+    "id": 0,
     "brand": "Adidas",
     "title": "Cartoon Astronaut T-Shirt",
     "price": 450,
     "img_src": "img/products/f1.jpg"
   },
   {
-    "id":1,
+    "id": 1,
     "brand": "Adidas",
     "title": "Hit the Vibe T-Shirt",
     "price": 500,
     "img_src": "img/products/f2.jpg"
   },
   {
-    "id":2,
+    "id": 2,
     "brand": "Adidas",
     "title": "Classic T-Shirt",
     "price": 600,
     "img_src": "img/products/f3.jpg"
   },
   {
-    "id":3,
+    "id": 3,
     "brand": "Adidas",
     "title": "Autumn T-Shirt",
     "price": 400,
     "img_src": "img/products/f4.jpg"
   },
   {
-    "id":4,
+    "id": 4,
     "brand": "Adidas",
     "title": "Spring T-Shirt",
     "price": 430,
     "img_src": "img/products/f5.jpg"
   },
   {
-    "id":5,
+    "id": 5,
     "brand": "Adidas",
     "title": "Scarlet Jacket",
     "price": 750,
     "img_src": "img/products/f6.jpg"
   },
   {
-    "id":6,
+    "id": 6,
     "brand": "Adidas",
     "title": "Flower Pants",
     "price": 450,
     "img_src": "img/products/f7.jpg"
   },
   {
-    "id":7,
+    "id": 7,
     "brand": "Adidas",
     "title": "Feline Flair Skirt",
     "price": 650,
     "img_src": "img/products/f8.jpg"
+  },
+  {
+    "id": 8,
+    "brand": "Nike",
+    "title": "Air Max Sneakers",
+    "price": 390,
+    "img_src": "img/products/n1.jpg"
+  },
+  {
+    "id": 9,
+    "brand": "Puma",
+    "title": "Active Track Jacket",
+    "price": 250,
+    "img_src": "img/products/n2.jpg"
+  },
+  {
+    "id": 10,
+    "brand": "Reebok",
+    "title": "Classic Leather Shoes",
+    "price": 380,
+    "img_src": "img/products/n3.jpg"
+  },
+  {
+    "id": 11,
+    "brand": "Under Armour",
+    "title": "Training Shorts",
+    "price": 420,
+    "img_src": "img/products/n4.jpg"
+  },
+  {
+    "id": 12,
+    "brand": "Adidas",
+    "title": "Ultimate Hoodie",
+    "price": 400,
+    "img_src": "img/products/n5.jpg"
+  },
+  {
+    "id": 13,
+    "brand": "Fila",
+    "title": "Short Pants",
+    "price": 400,
+    "img_src": "img/products/n6.jpg"
+  },
+  {
+    "id": 14,
+    "brand": "New Balance",
+    "title": "Fresh Foam Shirt",
+    "price": 370,
+    "img_src": "img/products/n7.jpg"
+  },
+  {
+    "id": 15,
+    "brand": "Asics",
+    "title": "Gel-Kayano Dark Shirt",
+    "price": 390,
+    "img_src": "img/products/n8.jpg"
   }
 ]

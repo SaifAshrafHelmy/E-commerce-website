@@ -33,7 +33,7 @@ function productCardCreator (i){
 
 function LoopShowAllProducts(){
   
-  for(let i=0; i<8; i++){
+  for(let i=0; i<=data.length; i++){
    productCardCreator(i)
 
  }
