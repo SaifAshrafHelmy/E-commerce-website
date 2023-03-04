@@ -69,6 +69,18 @@ button.normal{
   outline: none;
   transition: 0.2s;
 }
+button.white{
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: white;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid white;
+  outline: none;
+  transition: 0.2s;
+}
 
 
 
@@ -92,7 +104,8 @@ header{
   left: 0;
 }
 header>a>img{
-  width: 15rem;
+  width: 13rem;
+  
 }
 
 
@@ -403,3 +416,80 @@ list-style: none;
 
  
 
+
+
+ 
+/********************
+ *  Small Banner *
+ ********************/
+ 
+ .sm-banner{
+  padding: 40px 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+ }
+
+ .sm-banner .banner-box#box1{
+  /* whose id is...  = no space,#.. */
+    background-image: url(img/banner/b17.jpg);
+ }
+ .sm-banner .banner-box#box2{
+    background-image: url(img/banner/b16.jpg);
+ }
+ .sm-banner .banner-box{
+
+
+  margin: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-grow: 1;
+
+  text-align: center;
+
+  min-width: 580px;
+  height: 50vh;
+
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  background-repeat: no-repeat;
+
+  color: white;
+
+  border-radius: 50px;
+
+  padding: 30px;
+/* there's a difference here in margin and space */
+  
+ }
+
+
+
+ .sm-banner .banner-box button{
+  margin-top: 30px;
+  margin-left: 14px;
+  scale: 1.2;
+ }
+ .sm-banner .banner-box:hover button{
+  background: #088178;
+  border: none;
+ 
+ }
+
+
+ .sm-banner .banner-box h4{
+  color: white;
+  font-size: 20px;
+ }
+  .sm-banner .banner-box h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  
+ } 
+
+ 
